@@ -22,7 +22,7 @@ const [ instanceCheckbox , setInstanceCheckbox ] = useState({
 Upon changing the sate of an instance to `true`, the checkbox feature will trigger.
 
 ### Step 2: Create the Checkbox Component
-The Checkbox component will take in 4 criteria:
+The Checkbox component will take in 3 criteria:
 1) **instanceKey** - which item you are changing
 2) **instanceCheckbox** - object containing all instances
 3) **description** - description field after checkbox
@@ -62,6 +62,14 @@ An input can looks similar to this:
 
 ### Step 4: Include the Checkbox Component
 
-The checkbox is going to take 3 criteria:
+The checkbox is going to feed 3 props into the component:
+1) **instanceKey** - which item you are changing
+2) **instanceCheckbox** - object containing all instances
+3) **description** - description field after checkbox
 
+or 
+
+```
+<Checkbox instanceKey={"instance01"} instanceCheckbox={instanceCheckbox} description={"ENTER WHATEVER TEXT YOU WANT"}/>
+```
 
