@@ -75,4 +75,4 @@ or
 
 # Final Output Sample
 
-![Example](../checkboxexample/public/Screenshot01.png "Example")
+![Example](./public/screenshot01.png)
