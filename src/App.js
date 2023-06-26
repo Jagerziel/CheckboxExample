@@ -1,6 +1,6 @@
-import './App.css';
-import { useState , useEffect } from "react";
+import { useState } from "react";
 import Checkbox from './checkbox/Checkbox.jsx'
+import './App.scss';
 
 // Determines if value is valid = above 0, a number, not an empty string
 function isValid ( value ) {
