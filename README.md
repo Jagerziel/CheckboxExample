@@ -62,7 +62,7 @@ An input can looks similar to this:
 
 ### Step 4: Include the Checkbox Component
 
-The checkbox is going to feed 3 props into the component:
+The Checkbox component is going to feed 3 props into the component:
 1) **instanceKey** - which item you are changing
 2) **instanceCheckbox** - object containing all instances
 3) **description** - description field after checkbox
@@ -73,3 +73,6 @@ or
 <Checkbox instanceKey={"instance01"} instanceCheckbox={instanceCheckbox} description={"ENTER WHATEVER TEXT YOU WANT"}/>
 ```
 
+# Final Output Sample
+
+![Example](../checkboxexample/public/Screenshot01.png "Example")
